@@ -15,10 +15,11 @@ function clearInput() {
 
 function sumEl() {
     arr.reduce((acc,val) => {
-        console.log('suma: ', a+b);
+        console.log('suma: ', acc + val);
         //return a+b;
     })
 }
+
 
 function  checkBtn() {
     btn.addEventListener('click', function() {
